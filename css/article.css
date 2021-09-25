@@ -1,0 +1,46 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0em;
+    margin: 1em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+li {
+    padding-right: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: rgb(226, 135, 135);
+    transition: 1ms;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: rgb(255, 115, 0);
+}
+
+a:hover {
+    color: white;
+    font-size: 150%;
+}
